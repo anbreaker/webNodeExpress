@@ -5,7 +5,7 @@ const ejs = require('ejs');
 
 // Settings
 // Inicializacion del Nº de puerto
-app.set('port', 3000);
+const numPuerto = app.set('port', 3000);
 app.set('views', path.join(__dirname, 'views'));
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'ejs');
@@ -21,6 +21,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Listening the server
 // Levantando pueto donde escucha 3003
-app.listen(app.get('port'), () => {
-  console.log('Server on port =>', app.get('port'));
+const server = app.listen(app.get('port'), () => {
+  // console.log('Server on port =>', app.get('port'));
+  console.log(`Listening http://localhost:${server.address().port}`);
 });
