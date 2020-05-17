@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "express src",
-    "start": "nodemon src",
+    "start": "node src",
     "dev": "nodemon src"
   },
   "repository": {
