@@ -1,0 +1,35 @@
+{
+  "name": "webNodeMongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anbreaker/webNodeMongo.git"
+  },
+  "keywords": [
+    "netlify",
+    "express.js"
+  ],
+  "author": "anbreaker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anbreaker/webNodeMongo/issues"
+  },
+  "homepage": "https://github.com/anbreaker/webNodeMongo#readme",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "express-generator": "^4.16.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "netlify-lambda": "^1.6.3",
+    "nodemon": "^1.19.4",
+    "serverless-http": "^2.4.1"
+  }
+}
