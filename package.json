@@ -9,8 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src",
-    "live": "live-server",
-    "dev": "nodemon src live-server"
+    "build": "nodemon src",
+    "dev": "nodemon src"
   },
   "repository": {
     "type": "git",
