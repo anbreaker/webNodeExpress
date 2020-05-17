@@ -8,8 +8,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src",
-    "build": "nodemon src",
+    "start": "node index.js",
     "dev": "nodemon src"
   },
   "repository": {
